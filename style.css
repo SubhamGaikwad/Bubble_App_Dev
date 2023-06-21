@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: skyblue;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #bubble__app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9rem;
+  }
+  
+  #bubble__app h1 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: black;
+    
+  }
+  
+  #canvas {
+    background-color: white;
+    
+  }
+  
+  #canvas:hover {
+    cursor: pointer;
+  }
+  
+  #resetButton {
+    width: 80px;
+    height: 34px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 62rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    /* letter-spacing: 1rem; */
+    background-color: white;
+    color: black;
+  }
+  
+  #resetButton:hover {
+    cursor: pointer;
+  }
